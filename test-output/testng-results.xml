@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-06T00:59:07 EET" name="Default suite" finished-at="2024-12-06T00:59:13 EET" duration-ms="5971">
+    <groups>
+    </groups>
+    <test started-at="2024-12-06T00:59:07 EET" name="Default test" finished-at="2024-12-06T00:59:13 EET" duration-ms="5971">
+      <class name="tests.BookingTests">
+        <test-method signature="testAddBooking()[pri:1, instance:tests.BookingTests@7ac0e420]" started-at="2024-12-06T00:59:07 EET" name="testAddBooking" finished-at="2024-12-06T00:59:11 EET" duration-ms="3832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddBooking -->
+        <test-method signature="testGetBooking()[pri:2, instance:tests.BookingTests@7ac0e420]" started-at="2024-12-06T00:59:11 EET" name="testGetBooking" finished-at="2024-12-06T00:59:12 EET" depends-on-methods="tests.BookingTests.testAddBooking" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBooking -->
+        <test-method signature="testNegativeCase()[pri:3, instance:tests.BookingTests@7ac0e420]" started-at="2024-12-06T00:59:12 EET" name="testNegativeCase" finished-at="2024-12-06T00:59:13 EET" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegativeCase -->
+      </class> <!-- tests.BookingTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
